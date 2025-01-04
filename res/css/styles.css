@@ -1,0 +1,189 @@
+
+.page-header {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #222629;
+    border-bottom: solid 1px #87c232;
+    padding-block: 2px;
+}
+.mini-menu-button {
+    display: flex;
+    background: transparent;
+    border: 0;   
+    user-select: none;
+}
+.h2{
+    margin: 0;
+    padding: 0;
+}
+.mmain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.name-of-vkladka { 
+    flex: 1/2;
+    color:#f0fcf0;
+    font-weight: 100;
+    font-size: 10px;
+    max-width: 70px;
+    max-height: 48px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Luminari, fantasy;
+    user-select: none;
+}
+
+.stol{
+    max-width: 490px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    table-layout: fixed;
+    border: 1px solid rgb(135, 194, 50);
+    border-radius: 13px;
+    margin: 5px;
+    border-collapse: separate;
+    border-spacing: 4px 5px; 
+}
+
+.tablichka {
+    margin-top: auto;
+    justify-self: flex-end;
+}
+
+/*Цвета градиентов*/
+.good-item {
+    background: linear-gradient(#2b2b2b, 70%, #5c5e5d);
+    border: 2px solid #5e6062;
+    border-radius: 13px;
+}
+
+.uncommon-item {
+    background: linear-gradient(#262e23, 70%, #4d6a4c);
+    border: 2px solid #52704a;
+    border-radius: 13px;
+
+}
+
+.rare-item {
+    background: linear-gradient(#202c3c, 70%, #2f4775);
+    border: 2px solid #3b5175;
+    border-radius: 13px;
+}
+
+.epic-item {
+    background: linear-gradient(#34264a, 70%, #62478e);
+    border: 2px solid #725798;
+    border-radius: 13px;
+}
+.lega-item {
+    background: linear-gradient(#42361b, 70%, #9c7730);
+    border: 2px solid #9a7d3c;
+    border-radius: 13px;
+}
+.blood-item {
+    background: linear-gradient(#402020, 70%, #8E3131);
+    border: 2px solid #983C3C;
+    border-radius: 13px;
+}
+/*Цвета и шрифты редкостей*/
+.nonrare {
+    color:#bacaba;
+    font-weight: 600;
+}
+.uncommon {
+    color:#007e3f;
+    font-weight: 600;
+}
+.rare {
+    color:#00c0fa;
+    font-weight: 600;
+}
+.epic {
+    color:#7223a0;
+    font-weight: 600;
+}
+.lega {
+    color:#e9ff1f;
+    font-weight: 600;
+}
+.blood {
+    color: red;
+    font-weight: 600;
+}
+
+.item-img{
+    width: 55%;
+    height: 55%;
+    text-align: center;
+}
+
+.no-border {
+    border: 0;
+}
+.cell {
+    display: flex;
+    user-select: none;
+    justify-content: center; 
+    align-items: center;
+   
+}
+
+
+.stats {
+    color: #278f2c;
+    font-style: italic;
+}
+
+.article-with-item {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.th, .td{
+    border: 1px solid #87c232;
+    padding: 10px;
+    border-radius: 13px;
+    background-color: #222629;
+    flex: 1;
+}
+
+.th, .tablichka {
+    font-family: Courier, monospace;
+    font-weight: 600;
+    color:#e0e0e0;
+}
+.td {
+    font-family: Courier, monospace;
+    font-weight: normal;
+    color:#e0e0e0;
+}
+
+.polilogo {
+    margin-left: auto;
+    margin-right: 2px;
+    justify-self: flex-end;
+}
+
+
+.menu-svg:hover {
+    mask-size: 3%;
+    mask-image: url("/res/img/pressed-menu.svg");
+    cursor: pointer;
+    width: 50;
+    height: 50;
+}
+.menu-svg {
+    width: 50;
+    height: 50; 
+}
+
+.bbody{
+    background-color: #222629;
+}
